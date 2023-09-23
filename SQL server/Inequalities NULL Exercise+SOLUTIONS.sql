@@ -1,8 +1,4 @@
-/*
-Exercise 1:
-Select any records from the “Person.Person” where the person type is not equal to “IN”.
-Do not include the “BusinessEntityID” and “rowguid” fields in your output.
-*/
+
 
 SELECT 
        [PersonType]
@@ -23,8 +19,8 @@ WHERE PersonType != 'IN'
 
 /*
 Exercise 2:
-Select all people from the “Person.Person” who have a “Title”.
-Do not include the “BusinessEntityID” and “rowguid” fields in your output.
+Select all people from the â€œPerson.Personâ€ who have a â€œTitleâ€.
+Do not include the â€œBusinessEntityIDâ€ and â€œrowguidâ€ fields in your output.
 */
 
 SELECT 
@@ -47,8 +43,8 @@ WHERE [Title] IS NOT NULL
 
 /*
 Exercise 3:
-Select all people from the “Person.Person” who do NOT have a middle name listed.
-Do not include the “BusinessEntityID” and “rowguid” fields in your output.
+Select all people from the â€œPerson.Personâ€ who do NOT have a middle name listed.
+Do not include the â€œBusinessEntityIDâ€ and â€œrowguidâ€ fields in your output.
 */
 
 SELECT 
@@ -70,7 +66,7 @@ WHERE [MiddleName] IS NULL
 
 /*
 BONUS:
-Select all people from the “Person.Person” who do NOT have a title of “Mr.”. 
+Select all people from the â€œPerson.Personâ€ who do NOT have a title of â€œMr.â€. 
 Make sure to include NULL values in your result.
 */
 
